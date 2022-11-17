@@ -1,0 +1,292 @@
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+header.header {
+    height: 74px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.navbar {
+    background: #0000009c;
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.carousel-item {
+    height: 100vh;
+    margin-top: -74px;
+}
+
+.carousel-dark .carousel-caption {
+    color: #fff;
+    background: #00000078;
+    bottom: 20%;
+}
+
+
+.hr-div {
+    width: 100%;
+}
+
+.title-hr {
+    width: 100px;
+    height: 5px;
+    background: #000000;
+    margin: auto;
+}
+
+.title-para {
+    padding-top: 15px;
+}
+
+.loc-item {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.loc-item img {
+    width: 100%;
+}
+
+.loc-item .loc-item-caption {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0000004d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-title {
+    color: #fff;
+}
+
+.loc-item:hover img {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.loc-item:hover .inner-title {
+    color: #04d7ad;
+    transition: all .5s;
+}
+
+.card-exm {
+    background: #efefef;
+}
+
+.blog-item {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-item .blog-item-caption {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0000004d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-item:hover img {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.blog-item:hover .inner-title {
+    color: #04d7ad;
+    transition: all .5s;
+}
+
+.blog-single-item {
+    background: #fff;
+    box-shadow: 10px 10px 10px #0000000a;
+}
+
+.blog-item-des {
+    padding: 15px;
+}
+
+.faq-title {
+    background: #0d6efd;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+}
+
+.faq-title[aria-expanded="true"] {
+    background: #fff;
+    color: #0d6efd;
+    border: 1px solid;
+}
+
+.fab-body {
+    padding: 10px;
+    background: antiquewhite;
+}
+
+
+.footer-top {
+    background: #1a1e21;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+ul.footer-social {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+.social-icon {
+    padding: 6px 10px;
+    margin-right: 5px;
+    background: #fff;
+    color: #0d6efd;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+.social-icon:hover {
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+
+/*contact page css started*/
+.contact-page {
+    background-image: url("../image/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-page h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-page p {
+    color: #fff;
+}
+
+.contact-info .title-hr,
+.contact-form .title-hr {
+    margin: 0;
+}
+
+.contact-info p {
+    text-align: justify;
+}
+
+.contact-info-detail {
+    padding-left: 10px
+}
+
+.contact-info-icon i {
+    padding: 10px;
+    border: 1px solid #0a53be;
+}
+
+.contact-form label {
+    width: 100%;
+    color: #084298;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.contact-form .form-control {
+    width: 100%;
+}
+
+.contact-page-form {
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+}
+
+.contact-info {
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+}
+
+/*contact page css end*/
+
+
+/*responsive css*/
+@media (min-width: 768px) {
+    .title {
+        color: #ec1d25;
+    }
+}
+
+@media (min-width: 992px) {
+    .title {
+        color: green;
+    }
+}
